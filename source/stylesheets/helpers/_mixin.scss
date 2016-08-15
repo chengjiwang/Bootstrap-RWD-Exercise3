@@ -1,0 +1,10 @@
+@mixin bgWhite($name,$bg) {
+	background: url("../images/#{$name}.#{$bg}");
+}
+
+@mixin icon($x,$y,$hover-x,$hover-y) {
+	background-position: $x $y;
+	&:hover{
+		background-position: $hover-x $hover-y;
+	}
+}

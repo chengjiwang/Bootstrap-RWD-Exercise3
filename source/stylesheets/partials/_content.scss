@@ -1,0 +1,24 @@
+.content {
+	background-color: #FFF;
+}
+
+.info-box {
+	position: relative;
+	top: -40px;
+	text-align: center;
+	background-color: $infobox-bgcolor;
+	h5 {
+		padding: 35px 0 20px 0;
+	}
+	p {
+		padding: 10px;	
+	}	
+	a {
+		margin-bottom: 20px;
+	}
+	&:hover {
+		background-color: $infobox-bgcolor-hover;
+		color: #fff;
+	}	
+}
+	

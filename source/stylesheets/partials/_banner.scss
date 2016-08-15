@@ -1,0 +1,30 @@
+.banner {
+	position: relative;
+	background-color: #FFF;
+	.item1 {
+		background-image: url("../images/banner1.jpg");
+		@extend %banner-image;
+	}
+	.item2 {
+		background-image: url("../images/banner2.jpg");
+		@extend %banner-image;
+	}
+	.item3 {
+		background-image: url("../images/banner3.jpg");
+		@extend %banner-image;
+	}
+}
+
+.owl-theme .owl-controls {
+	.owl-buttons {
+		.owl-prev {				
+			left: 0%;	
+			@extend %owl-buttons;
+		}		
+		.owl-next {		
+			right: 0%;	
+			@extend %owl-buttons;
+		}	
+	}	
+}
+

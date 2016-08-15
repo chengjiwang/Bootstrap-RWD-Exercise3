@@ -1,0 +1,16 @@
+.list {
+	li {
+		display: inline;
+		padding: 0 5px;
+		border-right: 1px solid #999;
+		&:last-child{
+			border-right: none;
+		}
+	}
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
