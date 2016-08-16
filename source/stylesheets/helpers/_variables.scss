@@ -1,6 +1,9 @@
 // font-family
 $font-primary: "Roboto";
 
+//btn
+$btn-primary: #212121;
+$btn-accent: #80b600;
 
 //navbar
 $nav-bgcolor: #fff;
@@ -9,10 +12,8 @@ $nav-bgcolor-hover: #80b600;
 $nav-text-hover: #fff;
 $form-bgcolor: #F0F0F0;
 
-
 //banner
 $owlButtons-bgcolor: #80b600;
-
 
 //contents
 $infobox-bgcolor: #F0F0F0;
@@ -22,12 +23,8 @@ $arrow-bgcolor: #d0d0d0;
 $arrow-bgcolor-hover: #707070;
 $chooselink-bgcolor: #5B5B5B;
 $chooselink-bgcolor-hover: #000;
-// $boxOdd-bgcolor: #f1f1f1;
-// $box-linktext: #266fff;
-// $box-linktext-hover: green;
-// $icon-oddColor: #B2B2B2;
-// $icon-evenColor: #fff;
-// $icon-evenBgcolor: #B2B2B2;
 
-// // footer
-// $footer-bgcolor: #f1f1f1;
+// footer
+$testimonial-bgcolor: #E0E0E0;
+$text-color: #5c5c5c; 
+$text-color-hover: #80b600;

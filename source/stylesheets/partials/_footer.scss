@@ -1,3 +1,48 @@
 footer {
-	
+	position: relative;
+	.black2-bg {
+		@extend %black-bg;
+		height: 150px;
+		bottom: 0;
+	}
+	.footer-info {
+		background-color: #FFF;
+		margin-top: 80px;
+		margin-bottom: 20px;
+		padding-bottom: 30px;
+		.testimonial  {
+			p {
+				background-color: $testimonial-bgcolor;
+				padding: 15px;
+				margin-bottom: 30px;
+			}
+			.men , .name {
+				display: inline-block;
+				margin-right: 15px;
+			}
+		}
+		form {
+			input ,textarea {
+				margin-bottom: 10px;
+			}
+			button {
+				margin-right: 10px;
+			}
+		}
+		.flickr {
+			padding: 0 10px 10px 0;
+		}
+	}
+	.footer-link {
+		color: $text-color;
+		.copyright {
+			float: left;
+			a {
+				color: $text-color-hover;
+			}
+		}
+		ul {
+			float: right;
+		}
+	}	
 }
