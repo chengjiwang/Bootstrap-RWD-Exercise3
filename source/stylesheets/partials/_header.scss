@@ -1,12 +1,20 @@
 header {
-	background-color: #000;
+	.black1-bg {
+		@extend %black-bg;
+		height: 100px;
+		top: 0;
+	}
 	.main {
 		margin-top: 10px;
-		padding: 20px;
-		@include bgWhite(subbg,gif);
+		padding: 20px 0px;
+		height: 120px;
+		background-color: #FFF;
 		.logo {
 			float: left;
 			margin-left: 30px;
+			h1 {
+
+			}
 		}
 		.social {
 			float: right;
@@ -43,6 +51,12 @@ header {
 	
 }		
 		
-		 
+@media screen and (max-width:768px) {
+	header {
+		.main {
+			height: 150px;
+		}
+	}
+}	 
 			
 	

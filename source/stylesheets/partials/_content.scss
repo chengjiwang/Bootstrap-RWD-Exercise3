@@ -5,6 +5,7 @@
 .info-box {
 	position: relative;
 	top: -40px;
+	margin-bottom: 15px;
 	text-align: center;
 	background-color: $infobox-bgcolor;
 	h5 {
@@ -59,18 +60,36 @@
 		}
 		div .more {
 			padding-left: 30px;
-
+		}
+		img {
+			width: 100%;
+		}
+		h5 {
+			width: 90px;
+			padding: 5px;
+			background-color: $news-date;
 		}
 	}
 }
 
 .works {
+	#owl-works {
+		position: relative;
+	}
 	padding: 15px;
 	h2 {
 		margin-left: 15px;
 	}
 	.item {	
 		margin: 15px;
+	}
+}
+
+@media screen and (max-width:760px) {
+	.introduce .news {
+		div .more {
+			padding-left: 0px;
+		}
 	}
 }
 

@@ -5,7 +5,7 @@
     background-size: cover;  
 }
 
-%owl-buttons {
+%owl-bannerButtons {
     position: absolute;
     top: 40%;
     width: 35px;
@@ -18,11 +18,23 @@
     border: 1px solid transparent;
     border-radius: 0;
     &:hover {
-        background-color: $owlButtons-bgcolor;
+        background-color: $owlButtons-color-hover;
         border-color: transparent;
     }
 }
 
+%owl-worksButtons {
+    position: absolute;
+    top: -10%;
+    margin: 0;
+    font-size: 23px;
+    opacity: 1;
+    color: #000;
+    background-color: transparent;
+    &:hover {
+        color: $owlButtons-color-hover;
+    }
+}
 
 %black-bg {
     background-color: #000;    

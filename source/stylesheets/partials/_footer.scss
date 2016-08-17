@@ -11,7 +11,7 @@ footer {
 		margin-bottom: 20px;
 		padding-bottom: 30px;
 		.testimonial  {
-			p {
+			.talk {
 				background-color: $testimonial-bgcolor;
 				padding: 15px;
 				margin-bottom: 30px;
@@ -19,6 +19,9 @@ footer {
 			.men , .name {
 				display: inline-block;
 				margin-right: 15px;
+			}
+			.name a {
+				color: $name-color;
 			}
 		}
 		form {
@@ -45,4 +48,20 @@ footer {
 			float: right;
 		}
 	}	
+}
+
+@media screen and (max-width:768px) {
+	.footer-info {
+		h3 {
+			padding-top: 5%;
+		}
+	} 
+	.footer-link {
+  		.copyright {
+  			margin-left: 5%;
+  		}
+  		ul {
+  			padding-left: 5%;
+  		}
+    }
 }

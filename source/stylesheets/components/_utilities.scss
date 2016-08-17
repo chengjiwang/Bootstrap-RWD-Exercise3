@@ -1,3 +1,4 @@
+// ul list
 .list {
 	li {
 		display: inline;
@@ -27,11 +28,36 @@
   }
 }
 
+//owl
+.owl-banner {
+  .owl-controls .owl-buttons {
+    .owl-prev {       
+      left: 0%; 
+      @extend %owl-bannerButtons;
+    }   
+    .owl-next {   
+      right: 0%;  
+      @extend %owl-bannerButtons;
+    } 
+  } 
+}
+.owl-works {
+  .owl-controls .owl-buttons {
+    .owl-prev {         
+      right: 4%;          
+      @extend %owl-worksButtons;
+    }   
+    .owl-next {     
+      right: 1%;
+      @extend %owl-worksButtons;    
+    } 
+  }  
+}
+
 .no-padding {
 	padding-left: 0;
 	padding-right: 0;
 }
-
 
 // button
 .mybtn {
