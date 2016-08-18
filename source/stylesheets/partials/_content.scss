@@ -82,7 +82,41 @@
 	}
 	.item {	
 		margin: 15px;
+		position: relative;
+      	overflow: hidden;
+		img {
+	        width: 100%;
+	    }
+		&:hover .item-overlay{
+			@extend  %overlay;
+			transition : all 0.5s ease;
+        }
+        figcaption{
+	        position: absolute;
+	        z-index: 2;
+	        top: 50%;
+	        left: 50%;
+	        margin-left: -25px;
+		    margin-top: -25px;
+		    h4 {
+		    	color: #fff;
+		    }            	               
+	        a {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				margin: 0 10px;
+				padding-top: 10px;
+	        }             
+	        @include transform(-200px,200px,-30deg);                           
+	    }
+		&:hover figcaption{      
+	        transition : all 0.5s ease;           
+	        @include transform(0px,0px,0deg);
+
+	    }
 	}
+	
 }
 
 @media screen and (max-width:760px) {

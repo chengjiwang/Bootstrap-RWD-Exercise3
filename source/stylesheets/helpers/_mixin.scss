@@ -4,3 +4,8 @@
 		background-position: $hover-x $hover-y;
 	}
 }
+
+@mixin transform($x,$y,$deg){
+	transform: rotate($deg);
+	transform: translate($x,$y);
+}
